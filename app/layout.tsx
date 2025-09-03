@@ -4,9 +4,9 @@ import { Geist, Geist_Mono, Manrope } from "next/font/google"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "Harshavardhan Portfolio",
+  description: "Portfolio of Harshavardhan Bodapati — Full Stack Developer",
+    generator: 'v0.app'
 }
 
 const geistSans = Geist({
