@@ -1,6 +1,8 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono, Manrope } from "next/font/google"
+import { GeistSans } from "geist/font/sans"
+import { GeistMono } from "geist/font/mono"
+import { Manrope } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
@@ -9,18 +11,6 @@ export const metadata: Metadata = {
   description: "Portfolio of Harshavardhan Bodapati — Full Stack Developer",
     generator: 'v0.app'
 }
-
-const geistSans = Geist({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-geist-sans",
-})
-
-const geistMono = Geist_Mono({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-geist-mono",
-})
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -33,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} ${manrope.variable} antialiased`}
+      className={`${GeistSans.variable} ${GeistMono.variable} ${manrope.variable} antialiased`}
     >
       <body className="font-sans">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
