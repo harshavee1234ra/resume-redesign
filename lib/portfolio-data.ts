@@ -56,7 +56,7 @@ export const skills = [
 export const education = [
   {
     school: "NIT Trichy",
-    degree: "B.Tech in Computer Science and Engineering,
+    degree: "B.Tech in Computer Science and Engineering",
     period: "2023 – 2027",
     detail: "CGPA: 8.40 / 10",
   },
@@ -147,4 +147,4 @@ export const experience = [
   },
 ]
 
-export const achievements = ["CGPA 8.40/10 (B.Tech, AI & DS)", "94% (Intermediate XII)", "10/10 GPA (SSC X)"]
+export const achievements = ["CGPA 8.40/10 B.Tech", "94% (Intermediate XII)", "10/10 GPA (SSC X)"]
