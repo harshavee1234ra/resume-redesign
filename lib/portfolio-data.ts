@@ -55,9 +55,9 @@ export const skills = [
 
 export const education = [
   {
-    school: "Dhanalakshmi Srinivasan University, Trichy",
+    school: "NIT Trichy",
     degree: "B.Tech in Computer Science and Engineering (AI & DS)",
-    period: "Sep 2022 – 2026",
+    period: "2023 – 2027",
     detail: "CGPA: 8.40 / 10",
   },
   {
